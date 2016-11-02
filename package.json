@@ -1,0 +1,11 @@
+{
+  "name": (meal_calculator),
+  "version": (1.0.0) 0.0.0
+  "description": A meal cost calculator
+  "entry point": (index.js) meal_calculator.js
+  "test command":
+  "git repository":
+  "keywords": meal, calculator, food
+  "author": "Qasim Bhatti"
+  "license": (ISC) None
+}
