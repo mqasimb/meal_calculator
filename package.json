@@ -1,11 +1,24 @@
 {
-  "name": (meal_calculator),
-  "version": (1.0.0) 0.0.0
-  "description": A meal cost calculator
-  "entry point": (index.js) meal_calculator.js
-  "test command":
-  "git repository":
-  "keywords": meal, calculator, food
-  "author": "Qasim Bhatti"
-  "license": (ISC) None
+  "name": "meal_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "meal_calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mqasimb/meal_calculator.git"
+  },
+  "keywords": [
+    "meal",
+    "calculator",
+    "food"
+  ],
+  "author": "Qasim Bhatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mqasimb/meal_calculator/issues"
+  },
+  "homepage": "https://github.com/mqasimb/meal_calculator#readme"
 }

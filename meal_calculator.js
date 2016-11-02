@@ -1,7 +1,6 @@
 function Diner(name, listOfDishes) {
     this.name = name;
     this.listOfDishes = listOfDishes;
-    
 }
 
 Diner.prototype.totalPrice = function() {
@@ -21,7 +20,7 @@ Diner.prototype.calculateTip = function() {
 };
 
 function Bill(listOfDiners) {
-    this.listOfDiners = listOfDiners;//Pass in the array of Diner objects
+    this.listOfDiners = listOfDiners;
 }
 
 Bill.prototype.totalAllDiners = function() {
@@ -70,3 +69,5 @@ var diners =[
     ];
     
 var newBill = new Bill(diners);
+
+console.log(newBill);
